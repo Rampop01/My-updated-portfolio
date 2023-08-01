@@ -3,12 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>My Portfolio</title>
     <meta
       name="description"
       content="created to display my skills,about me, my contact and other more"
     />
-    <meta name="keywords" content="about, sills, contact, info" />
+    <meta name="keywords" content="about, skills, contact, info" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script
       src="https://kit.fontawesome.com/234de0dee3.js"
@@ -16,16 +16,14 @@
     ></script>
   </head>
   <body>
-    <div
-      class="container min-h-screen bg-[url('images/blue.jpg')] bg-center bg-cover"
-    >
-      <nav class="flex items-center bg-[rgb(163,221,242)] px-28 py-3 fixed top-0 right-0 left-0">
+    
+      <nav class="lg:flex items-center lg:justify-between bg-[rgb(163,221,242)] p-7 lg:p-4 lg:px-28 fixed top-0 right-0 left-0">
         <img
           src="images/logo.jpg"
-          class="w-20 rounded-s-full mx-5"
+          class="w-20 hidden lg:flex rounded-s-full mx-5"
           alt="my logo"
         />
-        <ul class=" flex-1 text-end">
+        <ul class=" lg:flex sm:flex text-end">
           <li class="list-none inline-block px-5">
             <a
               href="#"
@@ -64,30 +62,31 @@
           </li>
         </ul>
       </nav>
-      <div>
-        <div class="max-w-lg py-[200px] pl-20 ml-10">
-          <h1 class="text-4xl font-semibold leading-normal">
+      <div
+      class="container min-h-screen w-full bg-[url('images/blue.jpg')] bg-center bg-cover static top-0 right-0 left-0 "
+    >
+        <div class="w-full py-[200px] pl-20 ">
+          <h1 class="text-4xl font-semibold leading-normal lg:ml-10">
             Hello, <br />I am Popoola Rahmat
           </h1>
           <p class="">
-            <span class="text-blue-800 text-3xl font-light"
+            <span class="text-blue-800 text-3xl font-light lg:ml-10"
               >A Frontend Developer</span
             >
           </p>
           <div class="mt-8">
             <a
               href="#about"
-              class="bg-blue-900 w-[180px] text-center hover:bg-blue-400 text-white rounded-3xl py-3 px-8 font-medium inline-block shadow-inner shadow-blue-950"
+              class="bg-blue-900 w-[180px] text-center lg:ml-10 hover:bg-blue-400 text-white rounded-3xl py-3 px-8 font-medium inline-block shadow-inner shadow-blue-950"
               >Read More</a
             >
             <a
-              href="About.html"
+              href="https://drive.google.com/drive/folders/12sUTBOuAlB3vMSfCWAfm1OTLEhRyWTYv?usp=sharing"
               class="bg-blue-400 w-[180px] text-center hover:bg-blue-900 hover:text-white text-black rounded-3xl py-3 px-8 font-medium inline-block shadow-inner shadow-blue-950"
               >Download CV <span class="text-blue-800">&#8681;</span></a
             >
           </div>
         </div>
-      </div>
     </div>
 
     <!--my about section -----------  -->
@@ -103,7 +102,7 @@
           <p class="my-5">
             Hello, I am Popoola Rahmat Omowumi, a frontend developer
             specializing in designing user-friendly and responsive websites. My
-            services are tailored to meet the specific demands of customers, and
+            services are tailored to meet the specific demands of users, and
             I take great pride in consistently delivering projects on time
             without any delays or disappointments. Effective communication,
             problem-solving abilities, and resilience are my strong suits,
@@ -141,7 +140,7 @@
             <h4><i class="fa-solid fa-check  bg-blue-950 text-white rounded mr-2"></i>growth Mindset</h4>
           </div>
         </div>
-        <a href="" class="ml-[550px] text-white  border-8 bg-blue-400 w-[180px] text-center hover:bg-blue-900 hover:text-white rounded-3xl py-3 px-8 font-medium inline-block shadow-inner shadow-blue-950">Hire Me</a>
+        <a href="" class="lg:ml-[550px] text-white  border-8 bg-blue-400 w-[180px] text-center hover:bg-blue-900 hover:text-white rounded-3xl py-3 px-8 font-medium inline-block shadow-inner shadow-blue-950">Hire Me</a>
       </div>
     </section>
 
@@ -223,21 +222,21 @@
             <input
               type="text"
               placeholder="Enter your first name"
-              class="w-[500px] p-5 mt-10 bg-white border-solid border-2 border-blue-950 font-extrabold"
+              class="lg:w-[500px] p-5 mt-10 bg-white border-solid border-2 border-blue-950 font-extrabold"
             /><br />
             <input
               type="text"
               placeholder="Enter your other names "
-              class="w-[500px] p-5 m-2 font-extrabold text-white bg-white border-solid border-2 border-blue-950"
+              class="lg:w-[500px] p-5 m-2 font-extrabold text-white bg-white border-solid border-2 border-blue-950"
             /><br />
             <input
               type="email"
               placeholder="somebody@me.com"
-              class="w-[500px] p-5 m-2 font-extrabold bg-white border-solid border-2 border-blue-950"
+              class="lg:w-[500px] p-5 m-2 font-extrabold bg-white border-solid border-2 border-blue-950"
             />
             <br />
             <textarea
-              class="w-[500px] p-5 m-2 font-extrabold bg-white border-solid border-2 border-blue-950"
+              class="lg:w-[500px] p-5 m-2 font-extrabold bg-white border-solid border-2 border-blue-950"
               placeholder="Message"
             ></textarea>
             <br />
