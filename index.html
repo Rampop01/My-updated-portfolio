@@ -20,7 +20,7 @@
       <nav class="lg:flex items-center lg:justify-between bg-[rgb(163,221,242)] p-7 lg:p-4 lg:px-28 fixed top-0 right-0 left-0">
         <img
           src="images/logo.jpg"
-          class="w-20 hidden lg:flex rounded-s-full mx-5"
+          class="w-20 hidden p lg:flex rounded-s-full mx-5"
           alt="my logo"
         />
         <ul class=" lg:flex sm:flex text-end">
@@ -62,10 +62,11 @@
           </li>
         </ul>
       </nav>
+      
       <div
       class="container min-h-screen w-full bg-[url('images/blue.jpg')] bg-center bg-cover static top-0 right-0 left-0 "
     >
-        <div class="w-full py-[200px] pl-20 ">
+        <div class="w-full py-[200px] pl-4 lg:pl-20 ">
           <h1 class="text-4xl font-semibold leading-normal lg:ml-10">
             Hello, <br />I am Popoola Rahmat
           </h1>
@@ -74,14 +75,14 @@
               >A Frontend Developer</span
             >
           </p>
-          <div class="mt-8">
+          <div class="mt-8 flex gap-4 items-center">
             <a
               href="#about"
-              class="bg-blue-900 w-[180px] text-center lg:ml-10 hover:bg-blue-400 text-white rounded-3xl py-3 px-8 font-medium inline-block shadow-inner shadow-blue-950"
+              class="bg-blue-900 w-[180px] text-center  hover:bg-blue-400 text-white rounded-3xl py-3 px-8 font-medium inline-block shadow-inner shadow-blue-950"
               >Read More</a
             >
             <a
-              href="https://drive.google.com/drive/folders/12sUTBOuAlB3vMSfCWAfm1OTLEhRyWTYv?usp=sharing"
+              href="https://drive.google.com/file/d/1z3h-hZeOvRcqL8bluK9Gh8BhWgHg5s3r/view?usp=sharing"
               class="bg-blue-400 w-[180px] text-center hover:bg-blue-900 hover:text-white text-black rounded-3xl py-3 px-8 font-medium inline-block shadow-inner shadow-blue-950"
               >Download CV <span class="text-blue-800">&#8681;</span></a
             >
@@ -117,17 +118,21 @@
     </section>
 
     <!-- skills section ---------------->
-    <section id="skills">
-      <div class="bg-blue-950 container min-h-screen">
-        <h3 class="text-center text-white font-extrabold text-4xl py-10"><i class="fa-solid fa-list-ol mr-3 rounded bg-blue-300"></i></i>My Skillset</h3>
-        <div class=" flex flex-col lg:flex-row justify-evenly leading-10 font-extrabold">
+    <section id="skills" class=" bg-blue-950 flex flex-col items-center">
+      <div class=" container min-h-screen ">
+        <h3 class="text-center text-white font-extrabold text-4xl py-10">
+          <i class="fa-solid fa-list-ol mr-3 rounded bg-blue-300"></i>
+          My Skillset
+        </h3>
+  
+        <div class=" flex flex-col lg:flex-row lg:justify-evenly items-center leading-10 font-extrabold">
           <div class="inline-block bg-white pr-20 pl-8 py-10 m-10 shadow-inner shadow-blue-950">
             <h4 class="text-2xl">Technology skills</h4>
             <h4><i class="fa-solid fa-check bg-blue-950 text-white rounded mr-2"></i>HTML</h4>
             <h4><i class="fa-solid fa-check bg-blue-950 text-white rounded mr-2"></i>CSS</h4>
             <h4><i class="fa-solid fa-check bg-blue-950 text-white rounded mr-2"></i>Javascript</h4>
             <h4><i class="fa-solid fa-check  bg-blue-950 text-white rounded mr-2"></i>tailwind CSS</h4>
-            <h4><i class="fa-solid fa-check  bg-blue-950 text-white rounded mr-2"></i>C Sharp</h4>
+            <h4><i class="fa-solid fa-check  bg-blue-950 text-white rounded mr-2"></i>ReactJS</h4>
             <h4><i class="fa-solid fa-check  bg-blue-950 text-white rounded mr-2"></i>Ui/Ux</h4>
           </div>
           <div class="inline-block bg-white pr-20 pl-8 py-10 m-10 shadow-inner shadow-blue-950">
@@ -140,8 +145,10 @@
             <h4><i class="fa-solid fa-check  bg-blue-950 text-white rounded mr-2"></i>growth Mindset</h4>
           </div>
         </div>
-        <a href="" class="lg:ml-[550px] text-white  border-8 bg-blue-400 w-[180px] text-center hover:bg-blue-900 hover:text-white rounded-3xl py-3 px-8 font-medium inline-block shadow-inner shadow-blue-950">Hire Me</a>
       </div>
+      <button class=" text-white  border-8 bg-blue-400 w-[180px] text-center hover:bg-blue-900 hover:text-white rounded-3xl py-3 px-8 font-medium  shadow-inner shadow-blue-950 mb-10">
+        Hire Me
+      </button>
     </section>
 
     <!-- Project session ------------------------->
@@ -247,11 +254,11 @@
             </button>
           </form>
         </div>
-        <div class="text-center mt-8 mr-[150px]">
-          <a href="https://github.com/Rampop01"><i class="fa-brands fa-github fa-2x mx-10"></i></i></a>
-          <a href="https://www.instagram.com/rampop_royal_watches/"><i class="fa-brands fa-instagram fa-2x mx-10"></i></a>
-          <a href="https://www.instagram.com/rampop_royal_watches/"><i class="fa-brands fa-twitter fa-2x mx-10"></i></a>
-          <a href="https://www.linkedin.com/in/popoola-rahmat/"><i class="fa-brands fa-linkedin fa-2x mx-10"></i></a>
+        <div class="text-center p-8 flex justify-center items-center gap-10">
+          <a href="https://github.com/Rampop01"><i class="fa-brands fa-github fa-2x "></i></i></a>
+          <a href="https://www.instagram.com/rampop_royal_watches/"><i class="fa-brands fa-instagram fa-2x "></i></a>
+          <a href="https://www.instagram.com/rampop_royal_watches/"><i class="fa-brands fa-twitter fa-2x "></i></a>
+          <a href="https://www.linkedin.com/in/popoola-rahmat/"><i class="fa-brands fa-linkedin fa-2x "></i></a>
         </div>
       </div>
     </section>
